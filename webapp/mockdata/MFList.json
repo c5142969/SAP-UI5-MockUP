@@ -1,0 +1,156 @@
+{
+    "catalog":{
+       "mf":{
+          "categories":[
+             {
+                "name":"MS Windows Server OS",
+                "type":"Catch All",
+                "cost":"5",
+                "categories":[
+                   {
+                      "mpname":"Windows Server 2016 and above Operating Systems (Monitoring)",
+                      "mpid":"Microsoft.Windows.Server.2016.Monitoring",
+                      "mpver":"10.1.0.5",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"Windows Server 2008 Operating System (Monitoring)",
+                      "mpid":"Microsoft.Windows.Server.2008.Monitoring",
+                      "mpver":"6.0.73.23.0",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"Windows Server 2012 R2 Operating System (Monitoring)",
+                      "mpid":"Microsoft.Windows.Server.2012.R2.Monitoring",
+                      "mpver":"6.0.7326.0",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"MS Windows Server OS (MF Views)",
+                      "mpid":"SAP.MS.Windows.Server.OS.MF.Views",
+                      "mpver":"1.0.0.0",
+                      "RoutingEnabled":"false",
+                      "ViewEnabled":"true",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"MS Windows Server OS (Overrides)",
+                      "mpid":"SAP.MS.Windows.Server.OS.OR",
+                      "mpver":"1.0.0.5",
+                      "RoutingEnabled":"false",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"true"
+                   },
+                   {
+                      "mpname":"Windows Server Shares Monitoring",
+                      "mpid":"SAP.Windows.Server.Shares.MON",
+                      "mpver":"7.0.8561.15",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   }
+                ]
+             },
+             {
+                "name":"Heartbeat",
+                "type":"Catch All",
+                "cost":"5",
+                "categories":[
+                   {
+                      "mpname":"System Center Core Monitoring",
+                      "mpid":"Microsoft.SystemCenter.2007",
+                      "mpver":"7.1.10226.1064",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"UNIX/Linux Core Library",
+                      "mpid":"Microsoft.Unix.Library",
+                      "mpver":"7.5.1045.0",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"Heartbeat (MF Views)",
+                      "mpid":"SAP.Heartbeat.MF.Views",
+                      "mpver":"1.0.0.0",
+                      "RoutingEnabled":"false",
+                      "ViewEnabled":"true",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"Network Management - Core Monitoring",
+                      "mpid":"System.NetworkManagement.Monitoring",
+                      "mpver":"7.1.10226.0",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   }
+                ]
+             },
+             {
+                "name":"Custom Windows Certificate",
+                "type":"Custom",
+                "cost":"20",
+                "categories":[
+                   {
+                      "mpname":"Custom Windows Certificate Monitoring",
+                      "mpid":"SAP.Custom.Windows.Certificate.MON",
+                      "mpver":"7.0.8560.2",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"true",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"Custom Windows Certificate (MF Views)",
+                      "mpid":"SAP.Custom.Windows.Certificate.MF.Views",
+                      "mpver":"1.0.0.0",
+                      "RoutingEnabled":"false",
+                      "ViewEnabled":"true",
+                      "ISOverriedMP":"false"
+                   }
+                ]
+             },
+             {
+                "name":"MailToAlert",
+                "type":"Manual",
+                "cost":"20",
+                "categories":[
+                   {
+                      "mpname":"MailToAlert Monitoring",
+                      "mpid":"SAP.MailToAlert.MON",
+                      "mpver":"10.19.10050.14",
+                      "RoutingEnabled":"true",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"MailToAlert (MF Views)",
+                      "mpid":"SAP.MailToAlert.MF.Views",
+                      "mpver":"1.0.0.0",
+                      "RoutingEnabled":"false",
+                      "ViewEnabled":"true",
+                      "ISOverriedMP":"false"
+                   },
+                   {
+                      "mpname":"MailToAlert (Overrides)",
+                      "mpid":"SAP.MailToAlert.OR",
+                      "mpver":"1.0.0.0",
+                      "RoutingEnabled":"false",
+                      "ViewEnabled":"false",
+                      "ISOverriedMP":"true"
+                   }
+                ]
+             }
+          ]
+       }
+    }
+ }
