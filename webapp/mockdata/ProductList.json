@@ -1,0 +1,7 @@
+{
+    "ProductList" : [
+    {"key" : "SC","value": "SCOM"},
+    {"key" : "AzM","value": "Azure Monitor"},
+    {"key" : "Ng","value": "Nagios"}
+    ]
+}
