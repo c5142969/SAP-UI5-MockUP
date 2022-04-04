@@ -1,18 +1,138 @@
 [
-                 
-                    {"mpname": "Windows Server 2016 and above Operating Systems (Monitoring)", "mpid": "Microsoft.Windows.Server.2016.Monitoring", "mpver": "10.1.0.5", "mpdesc": "Microsoft Windows Server 2016 and above Operating System Management Pack: this management pack monitors Windows Server 2016 and above operating systems.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "Windows Server 2008 Operating System (Monitoring)", "mpid": "Microsoft.Windows.Server.2008.Monitoring", "mpver": "6.0.73.23.0", "mpdesc": "Microsoft Windows Server 2008 Operating System Management Pack: This management pack monitors Windows Server 2008.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "Windows Server 2012 R2 Operating System (Monitoring)", "mpid": "Microsoft.Windows.Server.2012.R2.Monitoring", "mpver": "6.0.7326.0", "mpdesc": "Microsoft Windows Server 2012 R2 Operating System Management Pack: This management pack monitors Windows Server 2012 R2.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "MS Windows Server OS (MF Views)", "mpid": "SAP.MS.Windows.Server.OS.MF.Views", "mpver": "1.0.0.0", "mpdesc": "[MONROU]: MS Windows Server OS (MF Views) Management Pack containing specialized Views for the Monitoring Feature.", "RoutingEnabled": "false", "ViewEnabled": "true", "ISOverriedMP": "false"},
-                    {"mpname": "MS Windows Server OS (Overrides)", "mpid": "SAP.MS.Windows.Server.OS.OR", "mpver": "1.0.0.5", "mpdesc": "[MONROU]: Override Management Pack for all default \"Microsoft Windows Server OS\" Management Packs. 1.0.0.5 - WG: Moved related overrides to this MP from MS Windows Server OS (Custom)(Overrides) MP", "RoutingEnabled": "false", "ViewEnabled": "false", "ISOverriedMP": "true"},
-                    {"mpname": "Windows Server Shares Monitoring", "mpid": "SAP.Windows.Server.Shares.MON", "mpver": "7.0.8561.15", "mpdesc": "Management Pack for Windows Server Shares Monitoring.7.0.8561.00 - Initial release in SCOM2019 UR3", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "System Center Core Monitoring", "mpid": "Microsoft.SystemCenter.2007", "mpver": "7.1.10226.1064", "mpdesc": "This management pack defines the monitoring, tasks, diagnostics and recoveries for the System Center Core platform.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "UNIX/Linux Core Library", "mpid": "Microsoft.Unix.Library", "mpver": "7.5.1045.0", "mpdesc": "Microsoft UNIX/Linux Core Library: This Management Pack contains the definitions that are specific to the UNIX/Linux platform.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "Heartbeat (MF Views)", "mpid": "SAP.Heartbeat.MF.Views", "mpver": "1.0.0.0", "mpdesc": "[MONROU]: Heartbeat (MF Views) Management Pack containing specialized Views for the Monitoring Feature.", "RoutingEnabled": "false", "ViewEnabled": "true", "ISOverriedMP": "false"},
-                    {"mpname": "Network Management - Core Monitoring", "mpid": "System.NetworkManagement.Monitoring", "mpver": "7.1.10226.0", "mpdesc": "This Management Pack contains monitoring logic for network devices.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "Custom Windows Certificate Monitoring", "mpid": "SAP.Custom.Windows.Certificate.MON", "mpver": "7.0.8560.2", "mpdesc": "[MONROU]: The Custom Windows Certificate Monitoring Managment Pack provides monitoring and routing for individual defined certificates on Windows Servers.", "RoutingEnabled": "true", "ViewEnabled": "true", "ISOverriedMP": "false"},
-                    {"mpname": "Custom Windows Certificate (MF Views)", "mpid": "SAP.Custom.Windows.Certificate.MF.Views", "mpver": "1.0.0.0", "mpdesc": "[MONROU]: Custom Windows Certificate (MF Views) Management Pack containing specialized Views for the Monitoring Feature.", "RoutingEnabled": "false", "ViewEnabled": "true", "ISOverriedMP": "false"},
-                    {"mpname": "MailToAlert Monitoring", "mpid": "SAP.MailToAlert.MON", "mpver": "10.19.10050.14", "mpdesc": "MailToAlert Monitoring Solution. Adds E-Mail as input channel for creating alerts or for dedicated monitors through XML Config file.", "RoutingEnabled": "true", "ViewEnabled": "false", "ISOverriedMP": "false"},
-                    {"mpname": "MailToAlert (MF Views)", "mpid": "SAP.MailToAlert.MF.Views", "mpver": "1.0.0.0", "mpdesc": "[MONROU]: MailToAlert (MF Views) Management Pack containing specialized Views for the Monitoring Feature.", "RoutingEnabled": "false", "ViewEnabled": "true", "ISOverriedMP": "false"},
-                    {"mpname": "MailToAlert (Overrides)", "mpid": "SAP.MailToAlert.OR", "mpver": "1.0.0.0", "mpdesc": "[MONROU]: Override Management Pack for all default \"MailToAlert\" Management Packs.", "RoutingEnabled": "false", "ViewEnabled": "false", "ISOverriedMP": "true"}
+ 
+              {
+                             "mpname": "Windows Server 2016 and above Operating Systems (Monitoring)",
+                             "mpid": "Microsoft.Windows.Server.2016.Monitoring",
+                             "mpver": "10.1.0.5",
+                             "mpdesc": "Microsoft Windows Server 2016 and above Operating System Management Pack: this management pack monitors Windows Server 2016 and above operating systems.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                            "mpname": "Windows Server 2008 Operating System (Monitoring)",
+                             "mpid": "Microsoft.Windows.Server.2008.Monitoring",
+                             "mpver": "6.0.73.23.0",
+                             "mpdesc": "Microsoft Windows Server 2008 Operating System Management Pack: This management pack monitors Windows Server 2008.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "Windows Server 2012 R2 Operating System (Monitoring)",
+                             "mpid": "Microsoft.Windows.Server.2012.R2.Monitoring",
+                             "mpver": "6.0.7326.0",
+                            "mpdesc": "Microsoft Windows Server 2012 R2 Operating System Management Pack: This management pack monitors Windows Server 2012 R2.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "MS Windows Server OS (MF Views)",
+                             "mpid": "SAP.MS.Windows.Server.OS.MF.Views",
+                             "mpver": "1.0.0.0",
+                             "mpdesc": "[MONROU]: MS Windows Server OS (MF Views) Management Pack containing specialized Views for the Monitoring Feature.",
+                             "RoutingEnabled": "false",
+                             "ViewEnabled": "true",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "MS Windows Server OS (Overrides)",
+                             "mpid": "SAP.MS.Windows.Server.OS.OR",
+                             "mpver": "1.0.0.5",
+                             "mpdesc": "[MONROU]: Override Management Pack for all default \"Microsoft Windows Server OS\" Management Packs. 1.0.0.5 - WG: Moved related overrides to this MP from MS Windows Server OS (Custom)(Overrides) MP",
+                             "RoutingEnabled": "false",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "true"
+              },
+              {
+                             "mpname": "Windows Server Shares Monitoring",
+                             "mpid": "SAP.Windows.Server.Shares.MON",
+                             "mpver": "7.0.8561.15",
+                             "mpdesc": "Management Pack for Windows Server Shares Monitoring.7.0.8561.00 - Initial release in SCOM2019 UR3",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "System Center Core Monitoring",
+                             "mpid": "Microsoft.SystemCenter.2007",
+                             "mpver": "7.1.10226.1064",
+                             "mpdesc": "This management pack defines the monitoring, tasks, diagnostics and recoveries for the System Center Core platform.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "UNIX/Linux Core Library",
+                             "mpid": "Microsoft.Unix.Library",
+                             "mpver": "7.5.1045.0",
+                             "mpdesc": "Microsoft UNIX/Linux Core Library: This Management Pack contains the definitions that are specific to the UNIX/Linux platform.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "Heartbeat (MF Views)",
+                             "mpid": "SAP.Heartbeat.MF.Views",
+                             "mpver": "1.0.0.0",
+                             "mpdesc": "[MONROU]: Heartbeat (MF Views) Management Pack containing specialized Views for the Monitoring Feature.",
+                             "RoutingEnabled": "false",
+                             "ViewEnabled": "true",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "Network Management - Core Monitoring",
+                             "mpid": "System.NetworkManagement.Monitoring",
+                             "mpver": "7.1.10226.0",
+                             "mpdesc": "This Management Pack contains monitoring logic for network devices.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "Custom Windows Certificate Monitoring",
+                             "mpid": "SAP.Custom.Windows.Certificate.MON",
+                             "mpver": "7.0.8560.2",
+                             "mpdesc": "[MONROU]: The Custom Windows Certificate Monitoring Managment Pack provides monitoring and routing for individual defined certificates on Windows Servers.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "true",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "Custom Windows Certificate (MF Views)",
+                             "mpid": "SAP.Custom.Windows.Certificate.MF.Views",
+                             "mpver": "1.0.0.0",
+                             "mpdesc": "[MONROU]: Custom Windows Certificate (MF Views) Management Pack containing specialized Views for the Monitoring Feature.",
+                             "RoutingEnabled": "false",
+                             "ViewEnabled": "true",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "MailToAlert Monitoring",
+                             "mpid": "SAP.MailToAlert.MON",
+                             "mpver": "10.19.10050.14",
+                             "mpdesc": "MailToAlert Monitoring Solution. Adds E-Mail as input channel for creating alerts or for dedicated monitors through XML Config file.",
+                             "RoutingEnabled": "true",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "MailToAlert (MF Views)",
+                             "mpid": "SAP.MailToAlert.MF.Views",
+                             "mpver": "1.0.0.0",
+                             "mpdesc": "[MONROU]: MailToAlert (MF Views) Management Pack containing specialized Views for the Monitoring Feature.",
+                             "RoutingEnabled": "false",
+                             "ViewEnabled": "true",
+                             "ISOverriedMP": "false"
+              },
+              {
+                             "mpname": "MailToAlert (Overrides)",
+                             "mpid": "SAP.MailToAlert.OR",
+                             "mpver": "1.0.0.0",
+                             "mpdesc": "[MONROU]: Override Management Pack for all default \"MailToAlert\" Management Packs.",
+                             "RoutingEnabled": "false",
+                             "ViewEnabled": "false",
+                             "ISOverriedMP": "true"
+              }
 ]
